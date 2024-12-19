@@ -10,12 +10,23 @@
 
 <title>Run Python Script</title>
 
+<style>
+	table, td, th {
+	  border: 1px solid black;
+	}
+	
+	table {
+	  border-collapse: collapse;
+	  width: 50%;
+	}
+	</style>
+
 </head>
 
 <body>
 
 
-<H1>HTML (Hyper Text Markup Language ) </H1>
+<H1> HTML (Hyper Text Markup Language ) </H1>
 <p>There are many HTML elements we can use to structure a web page. While <a href="https://builtin.com/learn/careers/front-end-developer" target="_blank">developers</a> choose elements for&nbsp; specific purposes, some tags are crucial to HTML document structure and are used most frequently. <br>These five tags are just a fraction of the basic tags developers consider fundamental to HTML programming:</p>
 
 <ol>
@@ -28,8 +39,182 @@
 <p>Other important tags to know when building a page include the <code>&lt;body&gt;</code>,<code>&lt;a&gt;</code>,<code>&lt;div&gt;</code>,<code>&lt;span&gt;</code>&nbsp;and <code>&lt;img&gt;</code>&nbsp;tags.</p>
 
 <div class="image2">
-   <img src="https://raw.githubusercontent.com/CMehra1989/HTML_Branch/refs/heads/main/Card2.jpg" alt="Girl in a jacket" width="400" height="300">
-</div>
+	<img src="C:\Users\cmehra\OneDrive - Global Business Travel\Desktop\GitHub\Card2.jpg" alt="Simple Image" width="100" height="100">
+ </div>
+ <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quia?<br><b>Lorem Number and Space</b></p>
+
+  <table>
+	<tr>
+	  <th>Symbols</th>
+	  <th>Text</th>
+	  
+	  
+	</tr>
+	<tr>
+	  <td> < b ></td>
+	  <td><b>Bold Text</b></td>
+	</tr>
+	<tr>
+	  <td>< strong ></td>
+	  <td><strong>important Text</strong></td>
+	  
+	</tr>
+	<tr>
+	  <td>< i ></td>
+	  <td><i>Italic Text</i></td>
+	  
+	</tr>
+	<tr>
+	  <td>< em ></td>
+	  <td><em>Emphasized Text</em></td>
+	  
+	</tr>
+	<tr>
+		<td>< mark ></td>
+		<td><mark>Marked Text</mark></td>
+		
+	  </tr><tr>
+		<td>< small ></td>
+		<td><small>smaller Text</small></td>
+		
+	  </tr><tr>
+		<td>< del ></td>
+		<td><del>Deleted Text</del></td>
+		
+	  </tr><tr>
+		<td>< ins ></td>
+		<td><ins>Inserted Text</ins></td>
+		
+	  </tr><tr>
+		<td>< sub ></td>
+		<td><sub>Subscript Text</sub></td>
+		
+	  </tr><tr>
+		<td>< sup ></td>
+		<td><sup>Superscript Text</sup></td>
+		
+	  </tr>
+  </table>
+  
+
+
+
+
+ <ol type="i" start="5">
+	<li>Chean Mehra
+	<ul>
+		<li>Chetan</li>
+		<li>Mehra</li>
+	</ul>
+	</li>
+	<li>Mehra Chetan</li>
+</ol>
+
+
+<table border="n" style="border-collapse: collapse;">
+	<caption>
+		Colgroup Col Span
+	</caption>
+	<colgroup>
+		<col span="1" style="background-color: chocolate;">
+		<col span="1" style="background-color: red;">
+	</colgroup>
+	<thead>
+		<tr>
+			<th>First</th>
+			<th colspan="2">colspan</th>
+		</tr>
+	
+	</thead>
+	<tbody>
+		<tr>
+			<td>First</td>
+			<td>Last</td>
+			<td>middle</td>
+		</tr>
+		<tr>
+			<td rowspan="2">rowspan</td>
+			<td>Final</td>
+		</tr>
+		<tr>
+			
+			<td>Chetan</td>
+		</tr>
+	</tbody>
+	<tfoot style="background-color: aquamarine;">
+		<tr>
+			<th>Status</th>
+			<th>Pass</th>
+			
+		</tr>
+	</tfoot>
+	
+</table>
+
+
+<h1>HTML Iframes</h1>
+<p dir="ltr"><span>HTML iframes are used to embed external content such as videos, maps, or entire web pages into their web projects. This article will cover the syntax, attributes, and use cases of iframes, providing a solid foundation for leveraging them in web development.</span></p>
+
+<pre><span>&lt;iframe src="URL" title="description"&gt;&lt;/iframe&gt;</span></pre>
+<table>
+	<thead>
+	   <tr>
+		  <th><span>Attributes</span></th>
+		  <th><span>Description</span></th>
+	   </tr>
+	</thead>
+	<tbody>
+	   <tr>
+		  <td style="text-align: left;"><span>allow</span></td>
+		  <td style="text-align: left;"><span>Specifies a set of extra restrictions on the content that can be loaded in an </span><code><span>&lt;iframe&gt;</span></code><span>.</span></td>
+	   </tr>
+	   <tr>
+		  <td style="text-align: left;"><span>allowfullscreen</span></td>
+		  <td style="text-align: left;"><span>Indicates whether the </span><code><span>&lt;iframe&gt;</span></code><span> can be displayed in fullscreen mode.</span></td>
+	   </tr>
+	   <tr>
+		  <td style="text-align: left;"><span>allowpaymentrequest</span></td>
+		  <td style="text-align: left;"><span>Enables payment requests for content inside the </span><code><span>&lt;iframe&gt;</span></code><span>.</span></td>
+	   </tr>
+	   <tr>
+		  <td style="text-align: left;"><b><strong>height</strong></b></a></td>
+		  <td style="text-align: left;"><span>Sets the height of the </span><code><span>&lt;iframe&gt;</span></code><span> element.</span></td>
+	   </tr>
+	   <tr>
+		  <td style="text-align: left;"><b><strong>width</strong></b></a></td>
+		  <td style="text-align: left;"><span>Sets the width of the </span><code><span>&lt;iframe&gt;</span></code><span> element.</span></td>
+	   </tr>
+	   <tr>
+		  <td style="text-align: left;"><span>loading</span></td>
+		  <td style="text-align: left;"><span>Specifies how the content of the </span><code><span>&lt;iframe&gt;</span></code><span> should be loaded.</span></td>
+	   </tr>
+	   <tr>
+		  <td style="text-align: left;"><b><strong>scrolling</strong></b></a></td>
+		  <td style="text-align: left;"><span>Controls whether or not the </span><code><span>&lt;iframe&gt;</span></code><span> should have scrollbars.</span></td>
+	   </tr>
+	   <tr>
+		  <td style="text-align: left;"><b><strong>name</strong></b></a><span> </span></td>
+		  <td style="text-align: left;"><span>Specifies the name of the </span><code><span>&lt;iframe&gt;</span></code><span> for targeting its content or for referencing it in JavaScript.</span></td>
+	   </tr>
+	   <tr>
+		  <td style="text-align: left;"><b><strong>referrerpolicy</strong></b></a></td>
+		  <td style="text-align: left;"><span>Sets the referrer policy for the </span><code><span>&lt;iframe&gt;</span></code><span> content.</span></td>
+	   </tr>
+	   <tr>
+		  <td style="text-align: left;"><b><strong>sandbox</strong></b></a></td>
+		  <td style="text-align: left;"><span>Specifies an extra set of restrictions for the content in the </span><code><span>&lt;iframe&gt;</span></code><span>.</span></td>
+	   </tr>
+	   <tr>
+		  <td style="text-align: left;"><b><strong>src</strong></b></a></td>
+		  <td style="text-align: left;"><span>Specifies the URL of the document to embed in the </span><code><span>&lt;iframe&gt;</span></code><span>.</span></td>
+	   </tr>
+	   <tr>
+		  <td style="text-align: left;"><b><strong>srcdoc</strong></b></a></td>
+		  <td style="text-align: left;"><span>Specifies the HTML content of the page to display in the </span><code><span>&lt;iframe&gt;</span></code><span>.</span></td>
+	   </tr>
+	</tbody>
+ </table>
+
 
 </body>
 
